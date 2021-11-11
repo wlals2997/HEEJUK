@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>히죽 HEEJUK</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
-    <nav id="navbar">
+    <header>
+      <nav id="navbar">
+        <h1 class="navbar__logo"><a href="#"> 히죽 HEEJUK</a></h1>
         <ul class="navbar__menu">
-            <li class="navbar__menu__item">죽이야기</li>
-            <li class="navbar__menu__item">메뉴소개</li>
-            <div class="navbar__logo">로고</div>
-            <li class="navbar__menu__item">매장찾기</li>
-            <li class="navbar__menu__item">고객문의</li>
+          <li class="navbar__menu__item"><a href="#"> 죽이야기</a></li>
+          <li class="navbar__menu__item"><a href="#"> 메뉴소개</a></li>
+          <li class="navbar__menu__item"><a href="#"> 매장찾기</a></li>
+          <li class="navbar__menu__item"><a href="#"> 고객문의</a></li>
         </ul>
-    </nav>
-
+      </nav>
+    </header>
+      <!-- Navbar -->
     <!-- Home -->
-    
+<section id="home">
+    <div class="home__image">
+    <img src="image/죽.jpg" alt="heejuk's image" class="main_image">
+    </div>
+    <h1 class="home__description">
+        히죽만의 색다른 죽의 맛!
+    </h1>
+    <button class="location__btn">매장 찾기</button>
+</section>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
