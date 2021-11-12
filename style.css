@@ -1,18 +1,20 @@
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 /* Global */
 :root {
   /* Color */
   --color-white: #ffffff;
-  --color-light-white: #eeeeee;
+  --color-light-white: rgba(216, 210, 210, 0.596);
   --color-dark-white: #bdbdbd;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
-  --color-orange: #feb546;
+  --color-orange: #fc9d03;
+  --color-brown: rgb(78, 56, 37);
   --color-black: #000000;
 
   /* Font size */
   --font-large: 48px;
-  --font-medium: 28px;
+  --font-medium: 35px;
   --font-regular: 18px;
   --font-small: 16px;
   --font-micro: 14px;
@@ -29,9 +31,109 @@
   --animation--duration: 300ms;
 }
 /* 공통적인 태그 */
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-brown);
+  margin: 16px 0;
+}
+h3 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 30px 0;
+}
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0;
+}
+body {
+  margin: 0;
+  font-family: 'Iropke Batang', serif;
+}
+a {
+  text-decoration-line: none;
+  color: var(--color-brown);
+}
+ul {
+  list-style: none;
+}
+.hidden {
+  display: none;
+}
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  margin: 0 80px;
+}
+
+.navbar__menu {
+  display: flex;
+  padding: 0;
+}
+.navbar__menu__item {
+  padding: 13px 50px 0 20px;
+}
+.navbar__menu__item a {
+  color: var(--color-black);
+}
+/* Section common */
+.section {
+  padding: 50px;
+  text-align: center;
+}
+.section__container {
+  max-width: 1200px;
+  /* 최대크기:데스크탑 1000~1200이 가장 최적화된 크기*/
+  margin: auto;
+}
+/* Home */
+#home {
+  background-color: var(--color-orange);
+  display: flex;
+}
+
+.home__image-left img{
+  width: 600px;
+  height: 600px;
+position: absolute;
+
+ 
+}
+.showing {
+  z-index: 1; /* 우선순위 지정 */
+  opacity: 1;
+}
+.home__description-right {
+
+ 
+  padding: 90px;
+  
+}
+.location__btn {
+  background-color: transparent;
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  border: none;
+  padding: 5px 30px 5px 30px;
+}
+.location__btn:hover {
+  background-color: var(--color-light-white);
+  border-radius: var(--size-border-radius);
+  transition-duration: 0.5s;
+}
+.location__btn i {
+  padding: 0 5px;
+}
+
 .naver_icon {
   width: 100px;
   height: 100px;
