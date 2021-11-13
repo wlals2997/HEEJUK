@@ -103,15 +103,17 @@ ul {
 }
 
 .home__image-left {
-  width: 600px;
-  height: 600px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 70px;
   top: 0;
   right: 50%;
   z-index:0;
   opacity:0;
   transition: all 1s ease-in-out;
+}
+.home__image-left img{
+  width: 600px;
+  height: 600px;
 }
 .showing {
   z-index: 1;
@@ -124,15 +126,20 @@ ul {
 .home__description-right {
   padding: 90px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 70px;
   left: 50%;
+}
+.home__description p{
+  
 }
 .location__btn {
   background-color: transparent;
   color: var(--color-white);
   font-size: var(--font-regular);
   border: none;
-  padding: 5px 30px 5px 30px;
+  padding: 5px 30px 5px 0px;
+  margin-top: 20px;
+  
 }
 .location__btn:hover {
   background-color: var(--color-light-white);
