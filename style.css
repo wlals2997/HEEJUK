@@ -96,27 +96,35 @@ ul {
   margin: auto;
 }
 /* Home */
+
 #home {
-  background-color: var(--color-orange);
-  display: flex;
+  background: var(--color-orange) !important;
+  height: 600px;
 }
 
-.home__image-left img{
+.home__image-left {
   width: 600px;
   height: 600px;
-position: absolute;
-
- 
+  position: absolute;
+  margin-top: 50px;
+  top: 0;
+  right: 50%;
+  z-index:0;
+  opacity:0;
 }
 .showing {
-  z-index: 1; /* 우선순위 지정 */
+  z-index: 1;
   opacity: 1;
 }
-.home__description-right {
+.hidden {
+  display: none;
+}
 
- 
+.home__description-right {
   padding: 90px;
-  
+  position: absolute;
+  margin-top: 50px;
+  left: 50%;
 }
 .location__btn {
   background-color: transparent;
