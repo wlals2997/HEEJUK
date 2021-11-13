@@ -1,13 +1,7 @@
-const SHOWING_CLASS="showing";
+const SHOWING_CLASS = 'showing';
+const HIDDEN_CLASS = 'hidden';
 
-console.log(mainImage)
-
-function onSlide() {
-    const mainImage = document.querySelector('.home__image-left:first-child');
-    const lastImage = document.querySelector('.home__image-left:last-child');
-    if() {
-       mainImage.classList.add('hidden') 
-    }
-}
-onSlide()
+function onSlide() {}
+const firstimg=doucment.queryselector('')
+onSlide();
 setInterval(onSlide, 3000);
