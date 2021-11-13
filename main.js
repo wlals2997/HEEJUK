@@ -1,7 +1,25 @@
 const SHOWING_CLASS = 'showing';
-const HIDDEN_CLASS = 'hidden';
+const firstSlide = document.querySelector('.home__image-left');
 
-function onSlide() {}
-const firstimg=doucment.queryselector('')
+function onSlide() {
+ 
+}
+
 onSlide();
 setInterval(onSlide, 3000);
+
+//   const currentSlide = document.querySelector(`.${SHOWING_CLASS}`); //showing class이다.
+
+// if (currentSlide) {
+//   currentSlide.classList.remove(SHOWING_CLASS);
+//   const nextSlide = currentSlide.nextElementSibling;
+
+//   if (nextSlide) {
+//     nextSlide.classList.add(SHOWING_CLASS);
+//   } else {
+//     firstSlide.classList.add(SHOWING_CLASS);
+//   }
+
+// } else {
+//   firstSlide.classList.add(SHOWING_CLASS);
+// }
