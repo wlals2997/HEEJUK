@@ -129,8 +129,23 @@ ul {
   margin-top: 70px;
   left: 50%;
 }
-.home__description p{
-  
+.scrollup__image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.js-scroll{
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.scrollup{
+  opacity:0;
+}
+.scrollup img{
+  width: 300px;
+  /* 임시 */
+  height: 300px;
 }
 .location__btn {
   background-color: transparent;
