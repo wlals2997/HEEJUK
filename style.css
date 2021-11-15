@@ -134,14 +134,18 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 50px;
+ 
+  
+}
+.scrollup{
+  z-index:0;
+  opacity:0;
 }
 .js-scroll{
   opacity: 1;
   transition: opacity 500ms;
 }
-.scrollup{
-  opacity:0;
-}
+
 .scrollup img{
   width: 300px;
   /* 임시 */
