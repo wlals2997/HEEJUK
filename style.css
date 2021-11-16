@@ -81,11 +81,15 @@ ul {
   padding: 0;
 }
 .navbar__menu__item {
-  padding: 13px 50px 0 20px;
+  padding: 13px 50px 0 50px;
+  cursor: pointer;
+
 }
-.navbar__menu__item a {
-  color: var(--color-black);
+.navbar__menu__item:hover{
+  border-radius: var(--color-orange);
+
 }
+
 /* Section common */
 .section {
   padding: 50px 0;
@@ -98,7 +102,6 @@ ul {
   margin: auto;
 }
 /* Home */
-
 #home {
   background: var(--color-orange) !important;
   height: 600px;
@@ -114,9 +117,10 @@ ul {
   transition: all 1s ease-in-out;
 }
 .home__image-left img {
-  width: 600px;
-  height: 600px;
+  width: 700px;
+  height: 700px;
 }
+/* 홈 이미지 슬라이드 */
 .showing {
   z-index: 1;
   opacity: 1;
@@ -130,26 +134,6 @@ ul {
   position: absolute;
   margin-top: 70px;
   left: 50%;
-}
-.scrollup__image {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 50px;
-}
-.scrollup {
-  z-index: 0;
-  opacity: 0;
-}
-.js-scroll {
-  opacity: 1;
-  transition: opacity 500ms;
-}
-
-.scrollup img {
-  width: 300px;
-  /* 임시 */
-  height: 300px;
 }
 .location__btn {
   background-color: transparent;
@@ -167,30 +151,68 @@ ul {
 .location__btn i {
   padding: 0 5px;
 }
-
+.feature__image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+/* 이미지 스크롤링 페이드인 */
+.scrollup {
+  z-index: 0;
+  opacity: 0;
+}
+.js-scroll {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.scrollup img {
+  width: 300px;
+  /* 임시 */
+  height: 300px;
+}
+.feature__description {
+  padding-top: 20px;
+}
 
 #home__location {
   padding: 180px 0;
   margin: 60px 0;
-
-  background: url('image/cooking-a-healthy-soup.jpg') center no-repeat , rgba(0, 0, 0, 0.4);
+  background: url('image/cooking-a-healthy-soup.jpg') center no-repeat,
+    rgba(0, 0, 0, 0.4);
   background-size: cover;
   background-blend-mode: multiply;
-  z-index:1;
+  z-index: 1;
 }
 
-.location__text{
+.location__text {
   color: white;
 }
-#contact{
+#contact {
   display: flex;
   justify-content: space-between;
- 
+
   flex-wrap: wrap;
-  
 }
-.contact__line{
+.contact__icon {
+  color: var(--color-orange);
+  font-size: 40px;
+}
+.contact__title {
+  color: var(--color-orange);
+}
+.contact__etitle {
+  font-size: 20px;
+}
+.contact__line {
   border-left: 1px solid var(--color-light-grey);
+}
+#footer {
+  background-color: var(--color-orange);
+}
+.footer_description {
+  color: white;
+  font-size: 20px;
 }
 .naver_icon {
   width: 100px;
