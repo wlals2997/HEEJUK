@@ -190,9 +190,10 @@ ul {
 }
 #contact {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   flex-wrap: wrap;
+  
 }
 .contact__icon {
   color: var(--color-orange);
@@ -217,4 +218,22 @@ ul {
 .naver_icon {
   width: 100px;
   height: 100px;
+}
+@media screen and (max-width: 768px){
+#navbar{
+  
+}
+#home{
+  
+}
+.home__image-left{
+  
+  
+}
+.feature__image{
+  
+}
+#home__location{
+ 
+}
 }
