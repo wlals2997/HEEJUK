@@ -83,11 +83,17 @@ ul {
 .navbar__menu__item {
   padding: 13px 50px 0 50px;
   cursor: pointer;
-
 }
-.navbar__menu__item:hover{
+.navbar__menu__item:hover {
   border-radius: var(--color-orange);
-
+}
+.navbar__toggle-btn{
+  position: absolute;
+  top: 55px;
+  right: 32px;
+  font-size: 30px;
+  color: var(--color-brown);
+  display: none;
 }
 
 /* Section common */
@@ -110,8 +116,8 @@ ul {
 .home__image-left {
   position: absolute;
   margin-top: 70px;
-  top: 0;
-  right: 50%;
+  top:0;
+ 
   z-index: 0;
   opacity: 0;
   transition: all 1s ease-in-out;
@@ -133,7 +139,8 @@ ul {
   padding: 90px;
   position: absolute;
   margin-top: 70px;
-  left: 50%;
+  z-index: 1;
+  right: 20%;
 }
 .location__btn {
   background-color: transparent;
@@ -191,9 +198,12 @@ ul {
 #contact {
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
   
+}
+.contact__menu{
+  padding-right: 70px;
+  padding-left: 70px;
 }
 .contact__icon {
   color: var(--color-orange);
@@ -219,21 +229,27 @@ ul {
   width: 100px;
   height: 100px;
 }
-@media screen and (max-width: 768px){
-#navbar{
+@media screen and (max-width: 768px) {
+  #navbar {
+  }
+  #home {
+  }
+  .home__image-left img {
+    
+  }
+  .scrollup {
+    margin:0 90px;
+  }
+  #home__location {
+  }
   
-}
-#home{
-  
-}
-.home__image-left{
-  
-  
-}
-.feature__image{
-  
-}
-#home__location{
- 
-}
+  .contact__menu :nth-child(1){
+    padding-top: 20px;
+  }
+  .contact__line {
+    display: none;
+  }
+  .navbar__toggle-btn{
+    display: ;
+  }
 }
