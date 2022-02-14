@@ -1,0 +1,16 @@
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@import 'reset.css';
+@import 'variable.css';
+/* components */
+@import 'components/navbar.css';
+@import 'components/footer.css';
+/* screen */
+@import 'screens/main-slide.css';
+@import 'screens/description.css';
+@import 'screens/banner.css';
+@import 'screens/contact.css';
+
+body {
+  font-family: 'Iropke Batang', serif;
+  box-sizing: border-box;
+}

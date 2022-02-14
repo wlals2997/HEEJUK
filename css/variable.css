@@ -1,0 +1,11 @@
+
+:root{
+  /* color */
+  --color-brown:#4E3825;
+  /* font-size */
+  --font-large: 48px;
+  --font-medium: 35px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+}
