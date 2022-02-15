@@ -33,7 +33,7 @@ header {
   color: var(--color-brown);
   position: absolute;
   right: 20px;
-  top: 49px;
+  top: 43px;
   display: none;
 }
 @media screen and (max-width: 768px) {
@@ -43,6 +43,9 @@ header {
   #navbar {
     display: flex;
     flex-direction: column;
+  }
+  .navbar__title{
+    font-size: 38px;
   }
 
   .nav__menu {
