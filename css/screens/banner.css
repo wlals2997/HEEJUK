@@ -31,7 +31,8 @@
     }
     .banner-container__text{
     text-align: center;
-     
+    font-size: 30px;
+    padding: 0px 40px;
      
     }
   }
