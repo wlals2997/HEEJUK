@@ -2,6 +2,7 @@
 
 ### 반응형 웹사이트 입니다.
 👉🏼[웹페이지 링크](https://wlals2997.github.io/HEEJUK/)
+👉🏼[노션 프로젝트 링크](https://www.notion.so/1-6e79c299038540c2bce1abaf048f4973)
 
 #### 목차
 1. [구현목록](#1-%EA%B5%AC%ED%98%84%EB%AA%A9%EB%A1%9D)
